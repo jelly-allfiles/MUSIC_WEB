@@ -1,0 +1,163 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Icon.gif" type="image/x-icon"/>
+</head>
+<body>
+    <!--NAVIGATION BAR-->
+<nav>
+    <div class="img-logo">
+        <a href="index.html">
+        <img src="images/logo-ts.gif" alt="logo">
+        </div>
+    </a>
+    <a href="index.html">Home</a>
+    <a href="video.html">Music Video</a>
+    <a href="lyric.html">Lyric Video</a>
+    <a href="music.html">Audio Music</a>
+    <a href="contact.html">Contact Information</a>
+</nav>
+
+
+
+<!--LYRIC VIDEO-->
+<div class="box-container2">
+<h3>Fearless Tracklist (2008)</h3>
+<div class="video-container">
+    <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Fearless (LV).mp4')">
+        <div class="photo">
+        <img src="images/fearless.png" alt="Video 1">
+        </div>
+    </div>
+    <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Fifteen (LV).mp4')">
+        <div class="photo">
+        <img src="images/fifteen.jpg" alt="Video 2">
+        </div>
+    </div>
+    <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Love Story (LV).mp4')">
+        <div class="photo">
+        <img src="images/love story.jpg" alt="Video 3">
+        </div>
+    </div>
+    <div class="video-thumbnail" onclick="openPopup('Lyrics Video/White Horse (LV).mp4')">
+        <div class="photo">
+        <img src="images/white horse.jpg" alt="Video 4">
+        </div>
+    </div>
+    <div class="video-thumbnail" onclick="openPopup('Lyrics Video/You Belong With Me (LV).mp4')">
+        <div class="photo">
+        <img src="images/you belong with me.png" alt="Video 5">
+        </div>
+    </div>
+</div>
+</div>
+<div class="box-container2">
+    <h3>Red Tracklist (2012)</h3>
+    <div class="video-container">
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Red (LV).mp4')">
+            <div class="photo">
+            <img src="images/red.jpg" alt="Video 1">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/All Too Well (LV).mp4')">
+            <div class="photo">
+            <img src="images/all too well.jpg" alt="Video 2">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/22 (LV).mp4')">
+            <div class="photo">
+            <img src="images/22.jpg" alt="Video 3">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Everything has changed (LV).mp4')">
+            <div class="photo">
+            <img src="images/everything has changed.jpg" alt="Video 4">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/We Are Never Ever Getting Back Together (LV).mp4')">
+            <div class="photo">
+            <img src="images/we are never ever getting back together.png" alt="Video 5">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box-container2">
+    <h3>1989 Tracklist (2014)</h3>
+    <div class="video-container">
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Shake It Off (LV).mp4')">
+            <div class="photo">
+            <img src="images/shake it off.jpg" alt="Video 1">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Bad Blood (LV).mp4')">
+            <div class="photo">
+            <img src="images/bad blood.png" alt="Video 2">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Wildest Dreams (LV).mp4')">
+            <div class="photo">
+            <img src="images/wildest dream.jpg" alt="Video 3">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Style (LV).mp4')">
+            <div class="photo">
+            <img src="images/style.png" alt="Video 4">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Blank Space (LV).mp4')">
+            <div class="photo">
+            <img src="images/blank space.png" alt="Video 5">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box-container2">
+    <h3>Reputation Tracklist (2017)</h3>
+    <div class="video-container">
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Delicate (LV).mp4')">
+            <div class="photo">
+            <img src="images/delicate.jpg" alt="Video 1">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Look What You Made Me Do (LV).mp4')">
+            <div class="photo">
+            <img src="images/look what you made me do.png" alt="Video 2">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/End Game (LV).mp4')">
+            <div class="photo">
+            <img src="images/end game.png" alt="Video 3">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/Ready For It (LV).mp4')">
+            <div class="photo">
+            <img src="images/ready for it.jpg" alt="Video 4">
+            </div>
+        </div>
+        <div class="video-thumbnail" onclick="openPopup('Lyrics Video/New Years Day (LV).mp4')">
+            <div class="photo">
+            <img src="images/new years day.jpg" alt="Video 5">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="popup" id="popup">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <video id="videoPlayer" controls autoplay></video>
+</div>
+<script src="lyric.js"></script>
+    <div class="scrollup-content">
+        <a href="#" class="scroll-to-top" id="scrollToTopBtn">&#8679;</a>
+        <script src="scrollup.js"></script>
+        </div>
+</body>
+
+</html>

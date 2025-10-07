@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Icon.gif" type="image/x-icon"/>
+</head>
+<body>
+    <!--NAVIGATION BAR-->
+<nav>
+    <div class="img-logo">
+        <a href="index.html">
+        <img src="images/logo-ts.gif" alt="logo">
+        </div>
+    </a>
+    <a href="index.html">Home</a>
+    <a href="video.html">Music Video</a>
+    <a href="lyric.html">Lyric Video</a>
+    <a href="music.html">Audio Music</a>
+    <a href="contact.html">Contact Information</a>
+</nav>
+
+<!--CONTRACT INFORMATION-->
+<div class="box-container3">
+<h1>Contact Information</h1>
+<p><strong><em>Your satisfaction is our priority.</em></strong> We're dedicated to making this the best it can be. 
+    Love it? Hate it? We want to hear your feedback! <strong><em>Connect with us on Facebook or email us</em></strong> it written below. 
+    We value both private and public feedback.</p>
+
+    <button class="feedback-button" onclick="toggleForm()">Feedback</button>
+</div>
+
+<div class="contactinfor-container">
+    <h5>Developer's Contact Information</h5>
+</div>
+<div class="contact-info">
+    <div class="contact-card">
+        <a href="mailto:marieanjileenaces15@gmail.con">
+        <img src="images/naces.jpg" alt="Developer 1">
+        </a>
+        <h3>Naces, Marie Anjilee V.</h3>
+        <p>Email: <a href="mailto:marieanjileenaces15@gmail.com">marieanjileenaces15@gmail.com</a></p>
+        <a href="https://www.facebook.com/mariaanjileevallecera.naces.3">Facebook</a>
+    </div>
+    <div class="contact-card">
+        <a href="mailto:jashelgupita23@gmail.com">
+        <img src="images/gupita.jpg" alt="Developer 2">
+        </a>
+        <h3>Gupita, Jashel Bert Ann</h3>
+        <p>Email: <a href="mailto:jashelgupita23@gmail.com">jashelgupita23@gmail.com</a></p>
+        <a href="https://www.facebook.com/Jashelbertann">Facebook</a>
+    </div>
+    <div class="contact-card">
+        <a href="mailto:elynx.xoxo@gmail.com">
+        <img src="images/bustamante.jpg" alt="Developer 3">
+        </a>
+        <h3>Bustamante, Angelyn</h3>
+        <p>Email: <a href="mailto:elynx.xoxo@gmail.com">elynx.xoxo@gmail.com</a></p>
+        <a href="https://www.facebook.com/angelangelangelyn">Facebook</a>
+    </div>
+    <div class="contact-card">
+        <a href="mailto:annalili065@gmail.com">
+        <img src="images/carali.jpg" alt="Developer 4">
+        </a>
+        <h3>Carali, Annalyn</h3>
+        <p>Email: <a href="mailto:annalili065@gmail.com">annalili065@gmail.com</a></p>
+        <a href="https://www.facebook.com/annalyn.carali.9">Facebook</a>
+    </div>
+    <div class="contact-card">
+        <a href="mailto:renalinemalazarte46@gmail.com">
+        <img src="images/malazarte.jpg" alt="Developer 5">
+        </a>
+        <h3>Malazarte, Renaline</h3>
+        <p>Email: <a href="mailto:renalinemalazarte46@gmail.com">renalinemalazarte46@gmail.com</a></p>
+        <a href="https://www.facebook.com/renaline.malazarte">Facebook</a>
+    </div>
+    <div class="contact-card">
+        <a href="mailto:stephaniegenabe.18@gmail.com">
+        <img src="images/genabi.jpg" alt="Developer 6">
+        </a>
+        <h3>Genabe, Stephanie</h3>
+        <p>Email: <a href="mailto:stephaniegenabe.18@gmail.com">stephaniegenabe.18@gmail.com</a></p>
+        <a href="https://www.facebook.com/step.genabe">Facebook</a>
+    </div>
+</div>
+
+
+
+<div class="overlay" id="overlay"></div>
+<div class="feedback-form" id="feedbackForm">
+    <h3>Feedback Form</h3>
+    <form id="form" onsubmit="sendEmail(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" required></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="button" onclick="toggleForm()">Close</button>
+    </form>
+</div>
+
+    <script src="form.js"></script>
+    
+    <div class="scrollup-content">
+        <a href="#" class="scroll-to-top" id="scrollToTopBtn">&#8679;</a>
+        <script src="scrollup.js"></script>
+        </div>
+</body>
+
+</html>
